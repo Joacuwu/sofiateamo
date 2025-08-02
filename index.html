@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caja de regalo interactiva</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div class="gift-container">
+    <img
+      id="giftBox"
+      src="imágenes/regalo-cerrado.png"
+      alt="Caja de regalo cerrada"
+      class="gift closed"
+    />
+    <img
+      id="surpriseImg"
+      src="imágenes/sorpresa.png"
+      alt="¡Sorpresa!"
+      class="surprise hidden"
+    />
+  </div>
+  
+
+  <button id="resetBtn">Volver a cerrar</button>
+
+  <audio id="openSound" src="audio/abrir.mp3"></audio>
+<div class="gift-container">
+  <img id="giftBox" src="imágenes/regalo-cerrado.png" alt="Caja de regalo cerrada" class="gift closed" />
+  <img id="surpriseImg" src="imágenes/sorpresa.png" alt="¡Sorpresa!" class="surprise hidden" />
+</div>
+
+<!-- Contenedor para corazones -->
+<div id="heartContainer"></div>
+
+<div class="button-wrapper">
+  <button id="resetBtn">Volver a cerrar</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
